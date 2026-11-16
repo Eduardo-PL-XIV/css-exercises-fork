@@ -42,6 +42,7 @@ a {
 .header, .footer {
   display: flex;
   justify-content: space-between;
+  padding: 0% 20px;
 }
 
 .footer { 
@@ -49,17 +50,23 @@ a {
 }
 
 .content {
-align-self: center;
+  align-self: center;
 }
 
 .buttons {
   display: flex;
   justify-content: center;
   padding: 10px 10px;
-  gap: 10px;
+  gap: 5px;
 }
 
 .input {
   display: flex;
   justify-content: center;
+}
+
+.left-links, .right-links {
+  padding: 0;
+  display: flex;
+  gap: 20px;
 }
